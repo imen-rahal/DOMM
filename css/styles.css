@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cfb4d3;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   /* background-image: url('https://www.google.fr/imgres?imgurl=https%3A%2F%2Fpng.pngtree.com%2Fthumb_back%2Ffw800%2Fbackground%2F20190521%2Fpngtree-gradual-rose-golden-decorative-leaf-flower-background-image_111728.jpg&imgrefurl=https%3A%2F%2Ffr.pngtree.com%2Ffreebackground%2Fgradual-rose-golden-decorative-leaf-flower-background_986876.html&tbnid=p5kdrwPzvLsEfM&vet=12ahUKEwjxiYfY2_HyAhURhxoKHZktCfcQMygNegUIARD8AQ..i&docid=nP5LJEh0No6oIM&w=640&h=896&q=image%20rose%20dor%C3%A9&ved=2ahUKEwjxiYfY2_HyAhURhxoKHZktCfcQMygNegUIARD8AQ');
+*/
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: blueviolet;
+    width: 30%;
+    text-align: center;
+}
+
+.prod {
+    position: relative;
+    left: 680px;
+    bottom: 2px;
+    margin-left: 10px;
+}
+
+.imagee {
+    width : 100px ;
+    cursor: pointer;
+    border: 2px solid rgb(160, 158, 158);
+}
+
+.contenu {
+    width: 10px;
+    display: flex;
+    align-items: center;
+    gap: 7px ; 
+    justify-content: space-around; 
+    position:relative;
+    right: 50px;
+}
+
+.item p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: blueviolet;
+    width: 30%;
+    list-style: none;
+}
+
+.item {
+    padding: 5px; 
+    margin : auto ; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    font-weight: bold;
+   /* color: rgb(66, 65, 65);*/
+    border: black;
+    border-radius: 5%;
+    background-color: rgb(167, 131, 172);
+}
+
+.valeur {
+    width: 25px;
+    background : transparent;
+    border: 1px solid rgb(148, 53, 127);
+    border-radius: 4px;
+    text-align: center;
+}
+
+#tot {
+    position: absolute;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 1000px;
+    font-family: cursive;
+}
+
+i {
+  cursor: pointer;  
+}
+
+.fa-minus-square:hover,.fa-plus-square:hover {
+    background-color: rgb(184, 53, 184);
+}
+
+.fa-heart {
+    border: none;
+    text-decoration: none;
+}
+
+.fa-heart:hover {
+    color: blueviolet;
+}
+
+.fa-times:hover {
+    color: blueviolet;
+}
+.qt-control {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    right: 30px;
+
+}
+
+.activated {
+    color: blueviolet;
+}
